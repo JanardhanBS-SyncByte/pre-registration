@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.mosip.testrig.apirig.automationtests.prereg</groupId>
-	<artifactId>apitest-prereg</artifactId>
+	<artifactId>automationtests-prereg</artifactId>
 	<packaging>jar</packaging>
-	<name>apitest-prereg</name>
-	<description>Parent project of MOSIP Pre-Registration apitests</description>
-	<url>https://github.com/mosip/pre-registration</url>
-	<version>1.2.1-java21-SNAPSHOT</version>
+	<name>automationtests-prereg</name>
+	<description>Parent project of MOSIP functional tests</description>
+	<url>https://github.com/mosip/mosip-functional-tests</url>
+	<version>1.2.0.1-SNAPSHOT</version>
 
 	<licenses>
 		<license>
@@ -18,12 +18,12 @@
 	</licenses>
 
 	<scm>
-		<connection>scm:git:git://github.com/mosip/pre-registration.git</connection>
-		<developerConnection>scm:git:ssh://github.com:mosip/pre-registration.git</developerConnection>
-		<url>https://github.com/mosip/pre-registration</url>
+		<connection>scm:git:git://github.com/mosip/mosip-functional-tests.git</connection>
+		<developerConnection>scm:git:ssh://github.com:mosip/mosip-functional-tests.git</developerConnection>
+		<url>https://github.com/mosip/mosip-functional-tests</url>
 		<tag>HEAD</tag>
 	</scm>
-	
+
 
 
 
@@ -88,7 +88,7 @@
 		<commons.configuration2.version>2.2</commons.configuration2.version>
 		<apache.httpcomponents.version>4.5.6</apache.httpcomponents.version>
 		<guava.version>19.0</guava.version>
-		<lombok.version>1.18.32</lombok.version>
+		<lombok.version>1.18.8</lombok.version>
 		<jsch.version>0.1.54</jsch.version>
 		<sshd.version>1.4.0</sshd.version>
 		<itextcore.version>7.1.0</itextcore.version>
@@ -177,7 +177,7 @@
 		<dependency>
 			<groupId>io.mosip.testrig.apirig.automationtests.commons</groupId>
 			<artifactId>automationtests-commons</artifactId>
-			<version>1.2.1-java21-SNAPSHOT</version>
+			<version>1.2.0.1-SNAPSHOT</version>
 		</dependency>
 		
 	</dependencies>
