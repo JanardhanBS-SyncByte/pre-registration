@@ -32,6 +32,13 @@ public class Config {
 	@Value("${preregistration.appservice.httpclient.connections.max:100}")
 	private int totalMaxConnection;
 	
+
+	@Value("${preregistration.appservice.httpclient.connections.max.per.host:20}")
+	private int maxConnectionPerRoute;
+
+	@Value("${preregistration.appservice.httpclient.connections.max:100}")
+	private int totalMaxConnection;
+	
 	/** The id. */
 	private Map<String, String> id;
 	
